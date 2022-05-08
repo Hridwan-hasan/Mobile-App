@@ -1,0 +1,574 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+
+
+/* gloval css */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.gloval-heading{
+    font-family: 'Work Sans', sans-serif;
+}
+.gloval-p{
+    font-family: 'Work Sans', sans-serif;
+/* text-align: justify; *//* line-height: 1.7rem; */}
+
+/* Header Is Here */
+
+#header{
+    width: 100%;
+    float: left;
+    background: url(../img/app-hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 0px 0px 0px;
+}
+.top-part{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.logo-part{
+    width: 30%;
+    float: left;
+}
+.logo-part img{
+    width: 100px;
+}
+.menu-part{
+    width: 70%;
+    float: left;
+    text-align: end;
+}
+.menu-part nav{
+
+}
+.menu-part nav ul{
+
+}
+.menu-part nav ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+.menu-part nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* Hero Part Is Here */
+
+.hero-part{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.hero-part h1{
+    font-size: 50px;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    margin-top: 200px;
+}
+.hero-part p{
+    font-family: 'Work Sans', sans-serif;
+    margin: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
+.hero-part img{
+    margin-bottom: -80px;
+}
+.hero-part-btn{
+    margin-bottom: 40px;
+}
+.hero-part-btn a{
+
+}
+.hero-part-btn a button{
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    width: 174px;
+    cursor: pointer;
+    border-radius: 9px;
+    margin: 13px;
+    padding: 10px;
+}
+.btn-dm{
+    color: #233148;
+    background-color: #ffffff;
+    border: 2px solid #0ecdf0;
+}
+.btn-cu{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+/* Main Section Is Here */
+
+/* Features */
+
+#features{
+    width: 100%;
+    float: left;
+    background: url(../img/feature-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -155px;
+    padding-top: 80px;
+}
+.feature-img-part{
+    width: 33%;
+    float: left;
+}
+.feature-img-part img{
+    margin-top: 300px;
+    margin-left: 85px;
+    margin-bottom: 200px;
+}
+.feature-box-part{
+    width: 33%;
+    float: left;
+    margin-top: 200px;
+}
+.feature-all-box{
+    width: 100%;
+    float: left;
+}
+.feature-box{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.child1{
+    float: left;
+    position: relative;
+    left: 109px;
+    top: -26px;
+    box-shadow: 0px 0px 10px #37bff5;
+}
+.child2{
+    float: left;
+    position: relative;
+    left: 40px;top: 65px;
+    box-shadow: 0px 0px 10px #37bff5;
+}
+.child3{
+    float: left;
+    position: relative;
+    left: 73px;top: 82px;
+    box-shadow: 0px 0px 10px #37bff5;
+}
+.child4{
+    float: left;
+    position: relative;
+    top: 175px;
+    box-shadow: 0px 0px 10px #37bff5;
+}
+.feature-box img{
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+.feature-box h2{
+    margin-bottom: 20px;
+    font-weight: 600;
+color: #233148;}
+.feature-box p{
+    padding-bottom: 21px;
+    line-height: 27px;
+color: #233148;}
+
+/* stable-&-ready-part  */
+
+#stable-ready-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.stable-wp{
+    width: 50%;
+    float: left;
+    margin-top: 93px;
+    text-align: center;
+}
+.stable-wp h1{
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 85px;
+color: #233148;}
+.stable-wp p{
+    text-align: justify;
+    max-width: 80%;
+    line-height: 1.5rem;
+color: #233148;}
+.stable-wp-btn{
+
+}
+.stable-wp-btn a{
+
+}
+.stable-wp-btn a button{
+    margin-left: 202px;
+    margin-top: 27px;
+    padding: 13px 24px;
+    border-radius: 9px;
+    border-style: none;
+    background-color: #33d2fd;
+    color: white;
+    font-weight: 600;
+cursor: pointer;}
+.stable-box-part{
+    width: 50%;
+    float: left;
+}
+.stable-all-box{
+    width: 100%;
+    float: left;
+}
+.stable-box{
+    width:100%;
+    float: left;
+    text-align: center;
+}
+
+.love-wp{
+    width: 100%;
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 40%);
+    padding: 20px;
+}
+.love-wp img{
+    float:left
+}
+.love-wp h1{
+    float: left;
+    padding-left: 15px;
+    font-size: 23px;
+    font-weight: 600;
+color: #233148;}
+.tag-wp{
+    width: 100%;
+    float: left;
+    background-color:#33d2fd;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 40%);
+}
+.tag-wp img{
+    float: left;
+}
+.tag-wp h1{
+    float: left;
+    padding-left: 31px;
+    font-weight: 600;
+    font-size: 23px;
+color: #233148;}
+.tag-wp p{
+    float: left;
+    margin-top: 24px;
+    padding-right: 13px;
+    padding-left: 30px;
+    color: white;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.bag-wp{
+    width: 100%;
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 40%);
+    padding: 20px;
+}
+.bag-wp img{
+    float: left;
+}
+.bag-wp h1{
+    float: left;
+    padding-left: 20px;
+    font-size: 23px;
+    font-weight: 600;
+color: #233148;}
+.pencil-wp{
+    width: 100%;
+    float: left;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 10px rgb(0 0 0 / 40%);
+    padding: 20px;
+}
+.pencil-wp img{
+    float: left;
+}
+.pencil-wp h1{
+    float: left;
+    padding-left: 22px;
+    font-size: 23px;
+    font-weight: 600;
+color: #233148;}
+
+
+/* marketing-3 part */
+
+
+#marketing-3{
+    width: 100%;
+    float: left;
+    padding-top: 55px;
+    padding-bottom: 40px;
+    background: url(../img/market-3-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cod-part{
+width: 50%;
+float: left;
+}
+.cod-part img{
+
+}
+.everything-part{
+    width: 50%;
+    float: left;
+    margin-top: 28px;
+    padding-left: 90px;
+}
+.everything-part h1{
+    margin-bottom: 43px;
+font-weight: 700;font-size: 30px;
+color: #233148;}
+.everything-part p{
+    text-align: justify;
+    line-height: 1.7rem;
+color: #233148;}
+.android{
+    margin-bottom: 27px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+color: #233148;}
+.iphone{    
+    margin-bottom: 30px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+color: #233148;}
+
+
+/* market-4-part */
+
+
+#market-4{
+    width: 100%;
+    float: left;
+    background:url(../img/market-4-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+.market-4-img-part{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.market-4-img-part img{
+
+}
+.market-4-btn{
+    position: relative;
+    top: 45px;
+    left: 310px;
+}
+.market-4-btn a{
+
+}
+.market-4-btn a button{
+    padding: 19px 70px;
+    border-style: none;
+    background-color: #fa5a76;
+    box-shadow: 0px 1px 13px #fa5a76;color: white;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+cursor: pointer;}
+.market-4-wp{
+    width: 50%;
+    float: left;
+    margin-top: 170px;
+}
+.market-4-wp h1{
+    margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 30px;
+color: #233148;}
+.market-4-wp p{
+    margin-bottom: 25px;
+    line-height: 1.7rem;
+    color: white;
+    font-weight: 400;
+}
+.market-4-icon1{
+    float: left;
+}
+.market-4-icon1 a{
+
+}
+
+.market-4-icon1 a img{
+    width: 140px;
+}
+.market-4-icon2{
+    float: left;
+    margin-left: 30px;
+}
+.market-4-icon2 a{
+
+}
+.market-4-icon2 a img{
+    width: 135px;
+}
+#info{
+    width: 100%;
+    float: left;
+padding-top: 142px;padding-bottom: 60px;text-align: center;}
+.info-wp{
+    width: 100%;
+    float: left;
+margin-bottom: 100px;}
+.info-d-wp{
+    width: 25%;
+    float: left;
+}
+.info-d-wp h1{
+
+margin-bottom: 35px;color: #233148;}
+.info-d-wp p{
+
+margin-bottom: 13px;text-align: center;color: #233148;}
+.info-git{
+    text-align: center;
+margin-bottom: 50px;}
+.info-git h1{
+
+margin-bottom: 22px;font-size: 36px;font-weight: 600;/* letter-spacing: 1px; */color: #233148;}
+.info-git p{
+
+color: #233148;}
+.info-input-btn{
+
+margin-left: 25px;}
+.info-input-btn input{
+    margin-right: 35px;padding: 10px 135px;text-align: center;
+border-style: none;box-shadow: 1px 1px 10px #0000004a;}
+.info-input-btn a{
+
+/* padding: 18px; */}
+.info-input-btn a button{
+
+padding: 10px 30px;background-color: #33d2fd;border-style: none;color: #233148;font-family: 'Work Sans', sans-serif;font-weight: 600;box-shadow: 0px 3px 5px #fc6374;cursor: pointer;}
+.company-p{
+    text-align: justify
+;margin-right: 17px;color: #233148;}
+.development-p{
+    color: #233148;text-align: justify;
+margin-right: 7px;}
+.community-p{
+
+}
+.info-p{
+
+}
+.c-p1{
+    margin-right: 50px;
+}
+.c-p2{
+    margin-right: 57px;
+}
+.c-p3{
+    margin-right: 50px;
+}
+.d-p1{
+    margin-right: 120px;
+}
+.d-p2{
+    margin-right: 90px;
+}
+.co-p1{
+    margin-right: 85px;
+}
+.co-p2{
+    margin-right: 82px;
+}
+.co-p3{
+    margin-right: 77px;
+}
+.co-p4{
+    margin-right: 91px;
+}
+.i-p1{
+
+}
+.i-p2{
+
+}
+.i-p3{
+
+}
+
+/* footer-part-is-here */
+
+#footer{
+    width: 100%;
+    float: left;
+    background-color: #233148;
+padding-top: 27px;padding-bottom: 23px;}
+.footer-wp{
+    width: 50%;
+    float: left;
+padding-left: 85px;color: white;font-weight: 400;}
+.footer-icon{
+    width: 50%;
+    float: left;
+padding-left: 240px;}
+.footer-all-icon{
+    width: 100%;
+    float: left;
+margin-left: 67px;padding-left: 80px;}
+.f-facebook-icon{
+    width: 15%;
+    float: left;
+color: white;}
+.f-twitter-icon{
+    width: 15%;
+    float: left;
+color: white;}
+.f-brouser-icon{
+    width: 15%;
+    float: left;
+color: white;}
+.f-google-plus-icon{
+    width: 15%;
+    float: left;
+color: white;}
+.f-youtube-icon{
+    width: 20%;
+    float: left;
+color: white;}
